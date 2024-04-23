@@ -25,7 +25,7 @@ export function Modal({ children }: { children: React.ReactNode }) {
       onClose={onDismiss}
     >
       {children}
-      <button onClick={onDismiss} className="modal-close" />
+      {/* <button onClick={onDismiss} className="modal-close" /> */}
     </dialog>,
     document.getElementById("modal-root")!,
   );
