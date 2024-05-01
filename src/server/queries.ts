@@ -1,7 +1,8 @@
+import "server-only";
+
 import { auth } from "@clerk/nextjs/server";
 import { and, eq } from "drizzle-orm";
 import { redirect } from "next/navigation";
-import "server-only";
 import { analyticsServerClient } from "./analytics";
 import { db } from "./db";
 import { images } from "./db/schema";
